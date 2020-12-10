@@ -1,0 +1,43 @@
+.fs-task {
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 1%;
+    z-index: 9999;     
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: medium;
+    font-size: 13px;
+    color: #555A5F;
+}
+
+.cftSearch {
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.cftSearchForm {
+   margin: 0px;
+}
+
+.cftResult_text {      
+    display: block;
+    font-size: 10px;
+    margin-right: 10%;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    transition: opacity 0.65s;    
+}
+
+#cftResult_box{
+    background-color: white;
+    border: 1px solid #c8ccd1;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.65s;
+}
+
+#cftResult_text {
+    border: 0px;
+    margin: 0px;
+}
